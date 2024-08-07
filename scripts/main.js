@@ -5,3 +5,9 @@
  *********************************************************************************/
 
 lancerJeu()
+
+let baliseInputUser = document.getElementById("inputEcriture");
+console.log(baliseInputUser);
+
+let baliseBtnValider = document.getElementById("btnValiderMot");
+console.log(baliseBtnValider);
