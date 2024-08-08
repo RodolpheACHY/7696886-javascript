@@ -6,8 +6,26 @@
 
 lancerJeu()
 
+
+// selection éléments avec la méthode getElementById
 let baliseInputUser = document.getElementById("inputEcriture");
 console.log(baliseInputUser);
 
 let baliseBtnValider = document.getElementById("btnValiderMot");
 console.log(baliseBtnValider);
+
+
+// selection éléments avec la méthode querySelector
+let baliseZoneProposition = document.querySelector(".zoneProposition");
+console.log(baliseZoneProposition);
+
+let baliseZoneScore = document.querySelector(".zoneScore");
+console.log(baliseZoneScore);
+
+
+// selection éléments avec la méthode querySelectorAll
+let baliseBtnRadio = document.querySelectorAll(".optionSource input");
+console.log(baliseBtnRadio);
+for (let i = 0; i < baliseBtnRadio.length; i++) {
+    console.log(baliseBtnRadio[i]);
+}
