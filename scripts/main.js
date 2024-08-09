@@ -19,8 +19,8 @@ console.log(baliseBtnValider);
 let baliseZoneProposition = document.querySelector(".zoneProposition");
 console.log(baliseZoneProposition);
 
-let baliseZoneScore = document.querySelector(".zoneScore");
-console.log(baliseZoneScore);
+let spanScore = document.querySelector(".zoneScore span");
+console.log(spanScore);
 
 
 // selection éléments avec la méthode querySelectorAll
